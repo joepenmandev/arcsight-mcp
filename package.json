@@ -1,0 +1,41 @@
+{
+  "name": "arcsight-mcp",
+  "version": "1.0.30",
+  "description": "Local blast-radius guardrail for Cursor, Claude Code, and Windsurf. Starts the published arcsight MCP server.",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "arcsight-mcp": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "mcp.json",
+    "glama.json"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joepenmandev/arcsight-mcp.git"
+  },
+  "homepage": "https://arcsight.ai",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "cursor",
+    "claude-code",
+    "static-analysis",
+    "typescript",
+    "dependency-graph"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "arcsight": "1.0.30"
+  }
+}

@@ -27,6 +27,15 @@ Then **reload Cursor** (or restart Claude Code once) so the `arcsight` MCP serve
 * **100% Local:** All dependency parsing and graph analysis run locally on your machine. Your source code is never uploaded.
 * **Free:** All CLI and MCP commands are free to use via `npx arcsight init`.
 
+## Server entrypoint
+
+This repository does not contain the ArcSight engine. `index.js` starts the published `arcsight@1.0.30` package over stdio:
+
+```bash
+npm install
+node index.js
+```
+
 ## Links
 * Website & Observatory Reports: [https://arcsight.ai](https://arcsight.ai)
 * npm Package: [https://www.npmjs.com/package/arcsight](https://www.npmjs.com/package/arcsight)
