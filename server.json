@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.joepenmandev/arcsight",
+  "title": "ArcSight",
+  "description": "Local blast-radius guardrail for Cursor and Claude. Checks shared files before an edit.",
+  "repository": {
+    "url": "https://github.com/joepenmandev/arcsight-mcp",
+    "source": "github"
+  },
+  "version": "1.0.30",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "arcsight-mcp",
+      "version": "1.0.30",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "name": "arcsight-mcp",
   "version": "1.0.30",
+  "mcpName": "io.github.joepenmandev/arcsight",
   "description": "Local blast-radius guardrail for Cursor, Claude Code, and Windsurf. Starts the published arcsight MCP server.",
   "license": "MIT",
   "type": "commonjs",
